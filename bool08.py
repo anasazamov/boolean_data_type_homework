@@ -7,4 +7,5 @@ def main(a):
         bool
     """
     # Write your code here
-    return  a==int(a)
+    return  a==int(a) and a>=0
+print(main(15)) 
